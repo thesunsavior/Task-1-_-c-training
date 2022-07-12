@@ -1,5 +1,5 @@
-#pragma once
-
+#ifndef WORKER_H
+#define WORKER_H
 class Worker
 {
 public:
@@ -13,3 +13,5 @@ public:
     int part2();
 	int part3();
 };
+
+#endif

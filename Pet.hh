@@ -1,5 +1,5 @@
-#pragma once
-
+#ifndef PET_H
+#define PET_H
 class Pet
 {
 public:
@@ -10,3 +10,4 @@ public:
 protected:
 	friend void pets();
 };
+#endif

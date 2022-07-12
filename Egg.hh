@@ -1,4 +1,6 @@
 #include <cstdlib>
+#ifndef EGG_H
+#define EGG_H
 
 class Chicken;
 
@@ -8,3 +10,4 @@ public:
 	Chicken *creator;
 	Chicken getCreator();
 };
+#endif

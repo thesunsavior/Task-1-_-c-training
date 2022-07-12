@@ -1,5 +1,8 @@
 #include <cstdlib>
 
+#ifndef CHICKEN_H
+#define CHICKEN_H
+
 class Egg;
 
 // #include "Egg.hh"
@@ -15,13 +18,15 @@ public:
 Chicken Egg::getCreator()
 {
 	if (!creator)
-		return Chicken{};
+		exit(1);
 	return *creator;
 }
 
 Egg Chicken::getCreator()
 {
 	if (!creator)
-		return Egg{};
+        exit(1);
 	return *creator;
 }
+
+#endif
