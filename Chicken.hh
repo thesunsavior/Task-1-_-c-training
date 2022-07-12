@@ -25,7 +25,7 @@ Chicken Egg::getCreator()
 Egg Chicken::getCreator()
 {
 	if (!creator)
-        exit(1);
+        	exit(1);
 	return *creator;
 }
 
